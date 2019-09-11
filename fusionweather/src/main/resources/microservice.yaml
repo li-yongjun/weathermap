@@ -1,7 +1,7 @@
 APPLICATION_ID: weathermap
 service_description:
   name: fusionweather
-  version: 0.0.2
+  version: 0.0.5
   properties:
     allowCrossApp: false
 cse:
@@ -15,9 +15,9 @@ cse:
       serverUri: https://cse.cn-north-1.myhuaweicloud.com:443
       refreshMode: 1
       refresh_interval: 5000
-  monitor:
-    client:
-      serverUri: https://cse.cn-north-1.myhuaweicloud.com:443
+#  monitor:
+#    client:
+#      serverUri: https://cse.cn-north-1.myhuaweicloud.com:443
   rest:
     address: 0.0.0.0:13092
   request:
